@@ -20,7 +20,6 @@ module.exports = function toReadable (number) {
       res.push(dozens[tens - 1]);
       temp = temp - (tens * 10);
   }
-
   if (temp > 10 && temp < 20) {
       res.push(tenToTwenty[temp - 10 - 1]);
   } else {
